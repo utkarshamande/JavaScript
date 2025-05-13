@@ -43,3 +43,25 @@ console.log(typeof id);
 //anotherId - symbol
 //bigNumber -  BigInt
 //function - function
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//Stack memmory (primitive) ,Heap(non-primitive)
+
+let myYouTubename ="utkarshamandedotcom"
+
+
+let anothername = myYouTubename
+anothername= "chaiourcode"
+console.log(myYouTubename);
+console.log(anothername);
+
+
+let userOne ={
+    email:"user@google.com",
+    upi :"user@ybl"
+}
+let userTwo =userOne
+
+userTwo.email = "utkarsha@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
