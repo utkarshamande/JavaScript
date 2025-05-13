@@ -24,3 +24,5 @@ console.table([name,age,isloggedIn])
 
 console.log(typeof null)// null type is object imp que 
 console.log(typeof undefined)
+
+
